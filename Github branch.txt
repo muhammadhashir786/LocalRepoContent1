@@ -1,0 +1,74 @@
+Git Branch:
+
+
+Commands:
+
+to check in which branch we are present:
+git branch
+
+to change the name of a branch:
+git branch -M main
+
+to create a new branch:
+git checkout -b branch_name
+
+to switch from 1 branch to another branch:
+git checkout branch_name	(type branch name where you want to switch)
+
+to delete any branch:
+git branch -d branch_name	(type branch name which you want to delete)
+
+Important Points Related To branch:
+
+1. if we want to delete any branch, first we need to switch another branch,
+means if we want to delete branch A, then we must switch to branch B, otherwise branch A will not delete, it gives error
+
+2. if we are present in branch A and if we change anything, edit or modify files in branch A, then it will not reflect, change or show in branch B, because we did not change anything in branch B
+
+3. if we make some changes in branch B, and we want to push it in github then we type branch B with origin in git push command:
+git push origin B 
+
+if we typed branch A instead of B in above command then it will give error:
+git push origin A 	gives error
+
+then your files or changes have been pushed in github
+after that go to github and select branch B from branch option in github and you can see the code has been pushed
+
+
+
+
+
+Merge Branch:
+
+if we want to merge branch A and branch B,
+
+there are 2 methods to merge branch 2 branches:
+
+1. merge 2 branches using Git
+
+before we merge 2 branches we can check differences between 2 branches or compare branches
+
+Compare Branch:
+
+to compare 2 branches, type:
+
+git diff branchname	(type the name of other or second branch which you want to compare to your present or first branch)
+
+means if we are present in branch A and we want to compare with branch B, then we type 
+code: 	git diff B
+
+First Method To Merge Branches:
+
+if we are present in branch A and merge with branch B, type:
+git merge B
+
+2nd Method To Merge Branches:
+
+we create a PR to merge 2 branches:
+PR means pull request.
+
+
+
+
+
+
