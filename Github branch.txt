@@ -69,5 +69,11 @@ PR means pull request.
 
 
 
+Pull Command:
+
+to get remote changes in local machine we use pull command:
+
+
+
 
 
