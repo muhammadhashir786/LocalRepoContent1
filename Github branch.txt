@@ -88,5 +88,23 @@ then we will find that both branches will not be the same in git and the content
 to merge both branches in git we use pull command like to merge both branches in github we created a PR request:
 code: git pull origin main
 
+Resolve Merge Conflicts:
 
+if we change in the same place in both branches, and we will merge using git then git will confuse which changes to keep in both branches, git will not automatically resolve the conflicts or differences in both branches.
+in this case we need to manually tells that which file changes do we need? So this is called Resolving Merge Conflicts
+
+change in same line in both branches and then merge both branches then git will show some error, this is called "Resolve Merge Conflicts"
+
+to merge in git use:
+git merge branchname
+
+to merge in github use:
+use pr request 
+
+When will conflicts create?
+
+Conflicts create when we change in the same line in different branches
+Conflicts will not be create when we only add more lines of codes and does not change any same line in both branches
+
+ 
 
