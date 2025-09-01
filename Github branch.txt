@@ -67,13 +67,26 @@ git merge B
 we create a PR to merge 2 branches:
 PR means pull request.
 
+Create PR Request:
 
+if there are 2 branches and we are present in 2nd branch
+if we make some changes in 2nd branch in git and when we push these files or changes in github from 2nd branch of git to 2nd branch of github in the same origin repo 
+then it will compare these changes in both branch and if you want to merge both branches in github then you need to create a PR request from here "github"
+when you create a PR Request, you need to add some title, description after that click on merge branches,
+then your both branches will merged and you will see the same content or files in both branches
 
 Pull Command:
 
 to get remote changes in local machine we use pull command:
 
+git pull origin main
 
+when we merged both branches in github using PR request, then both files have same content in github
+and when will come to git in our local machine and check both branches 
+then we will find that both branches will not be the same in git and the contents of both branches are also different
+
+to merge both branches in git we use pull command like to merge both branches in github we created a PR request:
+code: git pull origin main
 
 
 
